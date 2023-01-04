@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+ 
+  
+  <title>CHAT APP</title>
+
+<link rel="stylesheet" href="/style.css">
+<script src="https://kit.fontawesome.com/78acd5deab.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Rubik&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+  
+<div class="container">
+  <div class="phone-container">
+    <div class="phone">
+      <div class="user">
+        <img class="user-pic" src="/images/avatar.jpg" alt="">
+        <div class="user-info">
+          <h3>sam green</h3>
+          <p>available to walk</p>
+        </div>
+
+        <button class="options"><i class="fa fa-ellipsis-v"></i></button>
+      </div>
+      <div class="chat">
+        <div class="dropdown">
+          <div class="dark-mode">
+            <p class="darkp">change theme</p>
+            <button class="darkbtn">
+              <i class="fa-regular fa-moon"></i>
+            </button>
+          </div>
+          <div class="clear">
+            <p>clear chat</p>
+            <button><i class="fa-solid fa-trash"></i></button>
+          </div>
+          <div class="media">
+            <p>see media</p>
+            <button>
+              <i class="fa-regular fa-image"></i>
+            </button>
+          </div>
+          <div class="about">
+            <p>about the walker</p>
+            <button>
+              <i class="fa-solid fa-user"></i>
+            </button>        
+          </div>
+          <div class="help">
+            <p>need any help? <span>contact us</span></p>
+          </div>
+        </div>
+        <p class="received-msg">that sounds great, i'd be happy to discuss more</p>
+        <p class="received-msg">
+          could you send over some pictures of your dog, please?
+        </p>
+        <div class="sent-msg">
+          <img class="dog-img" src="/images/dog-image-1.jpg" alt="">
+          <img class="dog-img" src="/images/dog-image-2.jpg" alt="">
+          <img class="dog-img" src="/images/dog-image-3.jpg" alt="">
+        </div>
+        <p class="sent-text">
+          here are a few pictures, she's a happy girl!
+        </p>
+        <p class="sent-text">
+          can you make it?
+        </p>
+        <p class="received-msg">
+          she looks so happy! the time we discussed works. How long shall i take her out for?
+        </p>
+        <div class="price">
+          <button class="check1 check-btn"></button>
+          <p class="choice">
+            30 minutes walk
+          </p>
+          <p class="dollars">$29</p>
+        </div>
+        <div class="price">
+          <button class="check2 check-btn"></button>
+          <p class="choice">
+            1 hour walk
+          </p>
+          <p class="dollars">$49</p>
+        </div>
+      </div>
+      <div class="msg-input">
+        <button class="camera icon"><i class="fa-solid fa-camera"></i></button>
+        <button class="vocal icon"><i class="fa-solid fa-microphone"></i></button>
+        <button class="image icon"><i class="fa-solid fa-image"></i></button>
+        <input class="input" type="text" placeholder="send a msg..">
+        <button class="send-btn">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="description-container">
+    <h2>simple looking</h2>
+    <p>stay in touch with our dog walkers through the chat interface.this makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+      <span> try the demo to get a feel of the UI</span>
+    </p>
+  </div>
+</div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
